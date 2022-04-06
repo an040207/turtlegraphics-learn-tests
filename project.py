@@ -5,6 +5,10 @@ a = turtle.Turtle()
 a.color("green")
 a.shape("blank")
 a.speed(0)
+def square(size):
+    for _ in range(4):
+        a.forward(size)
+        a.left(90)
 i = 0 #변수 i 선언
 j = 0 #변수 j 선언
 while True:
@@ -14,4 +18,5 @@ while True:
     a.right(i)
     a.circle(i)
     a.circle(j)
+    square(i)
     a.goto(i,j)
