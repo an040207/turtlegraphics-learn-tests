@@ -2,6 +2,7 @@ import turtle
 import random
 
 turtle.colormode(255)
+turtle.bgcolor(0,0,0)
 a = turtle.Turtle()
 a.shape("blank")
 a.speed(0)
