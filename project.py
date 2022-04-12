@@ -18,10 +18,10 @@ def square(size):
 while True:
     i = random.randrange(-360 ,361)
     j = random.randrange(-360 ,361)
-    ca = random.randrange(0 ,256)
+    cr = random.randrange(0 ,256)
+    cg = random.randrange(0 ,256)
     cb = random.randrange(0 ,256)
-    cc = random.randrange(0 ,256)
-    a.color((ca, cb ,cc))
+    a.color(cr, cg, cb)
     a.forward(abs(i))
     a.right(i)
     a.circle(i)
